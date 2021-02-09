@@ -1,0 +1,46 @@
+html {
+  background: url("./images/bg.jpg");
+  background-size: cover;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: cursive;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  margin: 15px 0;
+  padding: 10px;
+  border: 0;
+  background-color: #3d97bf;
+  cursor: pointer;
+}
+
+.start-btn {
+  border-radius: 5px;
+  font-size: medium;
+  color: white;
+}
+
+.score {
+  position: absolute;
+  top: 10%;
+  left: 48%;
+  color: #3d97bf;
+}
+
+.next-btn {
+  position: absolute;
+  top: 85%;
+  left: 46%;
+  font-size: medium;
+  border-radius: 5px;
+  background-color: white;
+}
